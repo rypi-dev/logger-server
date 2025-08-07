@@ -11,9 +11,9 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 
-	"rypi-dev/logger-server/internal/audit/audit"
-	"rypi-dev/logger-server/internal/logger/log_levels"
-	"rypi-dev/logger-server/internal/utils/utils"
+	"github.com/rypi-dev/logger-server/internal/audit/audit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/utils/utils"
 )
 
 const MaxRequestBodySize = 4096

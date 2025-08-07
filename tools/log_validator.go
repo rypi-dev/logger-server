@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"rypi-dev/logger-server/internal"
+	"github.com/rypi-dev/logger-server/internal"
 )
 
 func main() {

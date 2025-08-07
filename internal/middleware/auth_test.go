@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"rypi-dev/logger-server/internal/audit/audit"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/audit/audit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // mockLogger pour capter les appels audit

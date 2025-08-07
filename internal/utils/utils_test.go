@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/log_levels"
-	"rypi-dev/logger-server/internal/utils"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/utils"
 )
 
 func TestSafeParseTimestamp(t *testing.T) {

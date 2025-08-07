@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // Format utilisé pour tous les timestamps

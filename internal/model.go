@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 	"time"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // LogEntry représente une entrée de log reçue par l'API.

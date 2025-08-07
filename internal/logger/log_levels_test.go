@@ -3,7 +3,7 @@ package logger_test
 import (
 	"testing"
 
-	"rypi-dev/logger-server/internal/logger"
+	"github.com/rypi-dev/logger-server/internal/logger"
 )
 
 func TestIsValidLogLevel(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"log"
 
 	_ "github.com/mattn/go-sqlite3" // ou le driver de ta BDD
-	"rypi-dev/logger-server/internal/utils"
+	"github.com/rypi-dev/logger-server/internal/utils"
 )
 
 func main() {

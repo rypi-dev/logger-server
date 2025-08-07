@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/log_levels"
-	"rypi-dev/logger-server/internal/middleware/ratelimit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/middleware/ratelimit"
 )
 
 func TestNewRateLimiterWithLevel_ValidConfig(t *testing.T) {

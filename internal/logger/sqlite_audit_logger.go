@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/log_levels"
-	"rypi-dev/logger-server/internal/utils/utils"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/utils/utils"
 
 	_ "github.com/mattn/go-sqlite3"
 )

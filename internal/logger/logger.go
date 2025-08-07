@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"rypi-dev/logger-server/internal/utils/utils"
-	"rypi-dev/logger-server/internal/logger/log_levels" // si tu veux valider les niveaux
+	"github.com/rypi-dev/logger-server/internal/utils/utils"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels" // si tu veux valider les niveaux
 )
 
 type FileLogger struct {

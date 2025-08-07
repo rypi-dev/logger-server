@@ -10,7 +10,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"logger-server/internal"
+	"github.com/rypi-dev/logger-server/internal"
 )
 
 func main() {

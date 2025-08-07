@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/logger"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/logger/logger"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 func sampleLogEntry(level string) logger.LogEntry {

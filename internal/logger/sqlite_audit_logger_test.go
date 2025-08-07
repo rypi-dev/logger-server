@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger/logger"
-	"rypi-dev/logger-server/internal/utils/utils"
+	"github.com/rypi-dev/logger-server/internal/logger/logger"
+	"github.com/rypi-dev/logger-server/internal/utils/utils"
 )
 
 // Sample audit entry for tests

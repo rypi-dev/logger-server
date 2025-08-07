@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 func TestLogEntry_Validate(t *testing.T) {

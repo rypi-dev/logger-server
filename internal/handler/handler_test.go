@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/handler"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/handler"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 	"go.uber.org/zap"
 )
 

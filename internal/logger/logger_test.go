@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/logger"
+	"github.com/rypi-dev/logger-server/internal/logger"
 )
 
 func sampleEntry() logger.LogEntry {

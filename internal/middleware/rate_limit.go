@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"rypi-dev/logger-server/internal/ratelimit/ratelimit"
+	"github.com/rypi-dev/logger-server/internal/ratelimit/ratelimit"
 )
 
 // RateLimiterMiddleware applique la limitation de débit

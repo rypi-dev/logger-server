@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"rypi-dev/logger-server/internal/audit/audit"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/audit/audit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // ResponseWriterWrapper permet de capturer le status code HTTP

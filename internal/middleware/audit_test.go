@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/audit/audit"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/audit/audit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // mockLogger implémente audit.LoggerInterface pour capter l'appel

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"rypi-dev/logger-server/internal/audit"
-	"rypi-dev/logger-server/internal/logger/log_levels"
+	"github.com/rypi-dev/logger-server/internal/audit"
+	"github.com/rypi-dev/logger-server/internal/logger/log_levels"
 )
 
 // mockLogger implémente LoggerInterface pour les tests d'audit
