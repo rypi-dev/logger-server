@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  logger-server:
+    build:
+      context: .
+    container_name: logger-server
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV=local
+    depends_on:
+      - fluent-bit
+
+  fluent-bit:
+    image: fluent/fluent-bit:2.2
+    container_name: fluent-bit
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./fluent-bit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+      - ./fluent-bit/parsers.conf:/fluent-bit/etc/parsers.conf
+    depends_on:
+      - logger-server
